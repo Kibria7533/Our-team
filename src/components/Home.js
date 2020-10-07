@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
-
+import Footer from './Footer'
+import Header from './Header'
+import {
+  Link
+} from "react-router-dom";
 class Home extends Component {
     render() {
         return (
             <div className="wrapper-main">
   {/* Top Bar */}
-  
+  <Header/>
   <header className="slider-main">
     <div id="carouselExampleIndicators" className="carousel slide carousel-fade" data-ride="carousel">
       <ol className="carousel-indicators">
@@ -252,101 +256,7 @@ class Home extends Component {
       {/* /.row */}
     </div>
   </div>
-  <div className="blog-slide">
-    <div className="container">
-      <h2>Our Blog</h2>
-      <div className="row">
-        <div className="col-lg-12">
-          <div id="blog-slider" className="owl-carousel">
-            <div className="post-slide">
-              <div className="post-header">
-                <h4 className="title">
-                  <a href="#">Latest blog Post</a>
-                </h4>
-                <ul className="post-bar">
-                  <li><img src="images/testi_01.png" alt="" /><a href="#">Williamson</a></li>
-                  <li><i className="fa fa-calendar" />02 June 2018</li>
-                </ul>
-              </div>
-              <div className="pic">
-                <img src="images/img-1.jpg" alt="" />
-                <ul className="post-category">
-                  <li><a href="#">Business</a></li>
-                  <li><a href="#">Financ</a></li>
-                </ul>
-              </div>
-              <p className="post-description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur, eu hendrerit ipsum efficitur. Morbi vitae velit ac.
-              </p>
-            </div>
-            <div className="post-slide">
-              <div className="post-header">
-                <h4 className="title">
-                  <a href="#">Latest blog Post</a>
-                </h4>
-                <ul className="post-bar">
-                  <li><img src="images/testi_02.png" alt="" /><a href="#">Kristiana</a></li>
-                  <li><i className="fa fa-calendar" />05 June 2018</li>
-                </ul>
-              </div>
-              <div className="pic">
-                <img src="images/img-2.jpg" alt="" />
-                <ul className="post-category">
-                  <li><a href="#">Business</a></li>
-                  <li><a href="#">Financ</a></li>
-                </ul>
-              </div>
-              <p className="post-description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur, eu hendrerit ipsum efficitur. Morbi vitae velit ac.
-              </p>
-            </div>
-            <div className="post-slide">
-              <div className="post-header">
-                <h4 className="title">
-                  <a href="#">Latest blog Post</a>
-                </h4>
-                <ul className="post-bar">
-                  <li><img src="images/testi_01.png" alt="" /><a href="#">Kristiana</a></li>
-                  <li><i className="fa fa-calendar" />05 June 2018</li>
-                </ul>
-              </div>
-              <div className="pic">
-                <img src="images/img-3.jpg" alt="" />
-                <ul className="post-category">
-                  <li><a href="#">Business</a></li>
-                  <li><a href="#">Financ</a></li>
-                </ul>
-              </div>
-              <p className="post-description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur, eu hendrerit ipsum efficitur. Morbi vitae velit ac.
-              </p>
-            </div>
-            <div className="post-slide">
-              <div className="post-header">
-                <h4 className="title">
-                  <a href="#">Latest blog Post</a>
-                </h4>
-                <ul className="post-bar">
-                  <li><img src="images/testi_02.png" alt="" /><a href="#">Kristiana</a></li>
-                  <li><i className="fa fa-calendar" />05 June 2018</li>
-                </ul>
-              </div>
-              <div className="pic">
-                <img src="images/img-4.jpg" alt="" />
-                <ul className="post-category">
-                  <li><a href="#">Business</a></li>
-                  <li><a href="#">Financ</a></li>
-                </ul>
-              </div>
-              <p className="post-description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur, eu hendrerit ipsum efficitur. Morbi vitae velit ac.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+ 
   {/* Contact Us */}
   <div className="touch-line">
     <div className="container">
@@ -355,14 +265,14 @@ class Home extends Component {
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
         </div>
         <div className="col-md-4">
-          <a className="btn btn-lg btn-secondary btn-block" href="#"> Contact Us </a>
+          <Link className="btn btn-lg btn-secondary btn-block" to="/contact"> Contact Us </Link>
         </div>
       </div>
     </div>
   </div>
   {/* /.container */}
   {/*footer starts from here*/}
- 
+ <Footer/>
 </div>
 
         );

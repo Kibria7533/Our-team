@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-
+import Footer from './Footer'
+import Header from './Header'
 class Portfolioshow3 extends Component {
     render() {
         return (
             <div>
+              <Header/>
             <div className="full-title">
               <div className="container">
                 {/* Page Heading/Breadcrumbs */}
@@ -135,6 +137,7 @@ class Portfolioshow3 extends Component {
               </div>
               {/* /.container */}
             </div>
+            <Footer/>
           </div>
           
         );

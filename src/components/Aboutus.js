@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
-
+import Footer from './Footer'
+import Header from './Header'
 class Aboutus extends Component {
     render() {
         return (
             <div>
+               <Header/>
   <div className="full-title">
+
     <div className="container">
       {/* Page Heading/Breadcrumbs */}
       <h1 className="mt-4 mb-3"> About Us</h1>
@@ -171,6 +174,7 @@ class Aboutus extends Component {
     </div>
     {/* /.container */}
   </div>
+  <Footer/>
 </div>
 
         );

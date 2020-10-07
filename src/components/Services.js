@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-
+import Footer from './Footer'
+import Header from './Header'
 class Services extends Component {
     render() {
         return (
             <div>
+              <Header/>
   <div className="full-title">
     <div className="container">
       {/* Page Heading/Breadcrumbs */}
@@ -98,6 +100,7 @@ class Services extends Component {
       {/* /.row */}
     </div>
   </div>
+  <Footer/>
 </div>
 
         );

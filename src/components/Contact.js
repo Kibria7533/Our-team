@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-
+import Footer from './Footer'
+import Header from './Header'
 class Contact extends Component {
     render() {
         return (
             <div>
+              <Header/>
   <div className="contact-main">
     <div className="container">
       {/* Content Row */}
@@ -66,6 +68,7 @@ class Contact extends Component {
     {/* Embedded Google Map */}
     <iframe width="100%" height="300px" frameBorder={0} scrolling="no" marginHeight={0} marginWidth={0} src="http://maps.google.com/maps?hl=en&ie=UTF8&ll=37.0625,-95.677068&spn=56.506174,79.013672&t=m&z=4&output=embed" />
   </div>
+  <Footer/>
 </div>
 
         );

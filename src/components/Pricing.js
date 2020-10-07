@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-
+import Footer from './Footer'
+import Header from './Header'
 class Pricing extends Component {
     render() {
         return (
             <div>
+              
             <div className="full-title">
               <div className="container">
                 {/* Page Heading/Breadcrumbs */}
@@ -87,6 +89,7 @@ class Pricing extends Component {
                 {/* /.row */}
               </div>
             </div>
+           
           </div>
           
         );

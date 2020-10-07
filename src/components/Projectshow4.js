@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
+import Footer from './Footer'
+import Header from './Header'
 class Projectshow4 extends Component {
+   
     render() {
         return (
             <div>
+              <Header/>
   <div className="full-title">
     <div className="container">
       {/* Page Heading/Breadcrumbs */}
@@ -11,7 +15,7 @@ class Projectshow4 extends Component {
       <div className="breadcrumb-main">
         <ol className="breadcrumb">
           <li className="breadcrumb-item">
-            <a href="index.html">Home</a>
+            <Link href="index.html">Home</Link>
           </li>
           <li className="breadcrumb-item active">Portfolio 4</li>
         </ol>
@@ -23,112 +27,112 @@ class Projectshow4 extends Component {
       <div className="row">
         <div className="col-lg-3 col-md-4 col-sm-6 portfolio-item">
           <div className="card h-100">
-            <a className="hover-box" href="#">
+            <Link className="hover-box" to="/singleproject">
               <div className="dot-full">
                 <i className="fas fa-link" />
               </div>
-              <img className="card-img-top" src="images/portfolio-big-01.jpg" alt="" />
-            </a>
+              <img  className="card-img-top" src="images/portfolio-big-01.jpg" alt="" />
+            </Link>
             <div className="card-body">
-              <h4><a href="#">In viverra nisi vel facilisis dignissim.</a></h4>
+              <h4><Link to="/singleproject">In viverra nisi vel facilisis dignissim.</Link></h4>
               <p>Business Consulting</p>
             </div>
           </div>
         </div>
         <div className="col-lg-3 col-md-4 col-sm-6 portfolio-item">
           <div className="card h-100">
-            <a className="hover-box" href="#">
+            <Link className="hover-box" to="/singleproject">
               <div className="dot-full">
                 <i className="fas fa-link" />
               </div>
-              <img className="card-img-top" src="images/portfolio-big-02.jpg" alt="" />
-            </a>
+              <img  className="card-img-top" src="images/portfolio-big-02.jpg" alt="" />
+            </Link>
             <div className="card-body">
-              <h4><a href="#">In viverra nisi vel facilisis dignissim.</a></h4>
+              <h4><Link to="/singleproject">In viverra nisi vel facilisis dignissim.</Link></h4>
               <p>Business Consulting</p>				  
             </div>
           </div>
         </div>
         <div className="col-lg-3 col-md-4 col-sm-6 portfolio-item">
           <div className="card h-100">
-            <a className="hover-box" href="#">
+            <Link className="hover-box" to="/singleproject">
               <div className="dot-full">
                 <i className="fas fa-link" />
               </div>
-              <img className="card-img-top" src="images/portfolio-big-03.jpg" alt="" />
-            </a>
+              <img  className="card-img-top" src="images/portfolio-big-03.jpg" alt="" />
+            </Link>
             <div className="card-body">
-              <h4><a href="#">In viverra nisi vel facilisis dignissim.</a></h4>
+              <h4><Link to="/singleproject">In viverra nisi vel facilisis dignissim.</Link></h4>
               <p>Business Consulting</p>
             </div>
           </div>
         </div>
         <div className="col-lg-3 col-md-4 col-sm-6 portfolio-item">
           <div className="card h-100">
-            <a className="hover-box" href="#">
+            <Link className="hover-box" to="/singleproject">
               <div className="dot-full">
                 <i className="fas fa-link" />
               </div>
-              <img className="card-img-top" src="images/portfolio-big-04.jpg" alt="" />
-            </a>
+              <img  className="card-img-top" src="images/portfolio-big-04.jpg" alt="" />
+            </Link>
             <div className="card-body">
-              <h4><a href="#">In viverra nisi vel facilisis dignissim.</a></h4>
+              <h4><Link to="/singleproject">In viverra nisi vel facilisis dignissim.</Link></h4>
               <p>Business Consulting</p>
             </div>
           </div>
         </div>
         <div className="col-lg-3 col-md-4 col-sm-6 portfolio-item">
           <div className="card h-100">
-            <a className="hover-box" href="#">
+            <Link className="hover-box" to="/singleproject">
               <div className="dot-full">
                 <i className="fas fa-link" />
               </div>
-              <img className="card-img-top" src="images/portfolio-big-04.jpg" alt="" />
-            </a>
+              <img  className="card-img-top" src="images/portfolio-big-04.jpg" alt="" />
+            </Link>
             <div className="card-body">
-              <h4><a href="#">In viverra nisi vel facilisis dignissim.</a></h4>
+              <h4><Link to="/singleproject">In viverra nisi vel facilisis dignissim.</Link></h4>
               <p>Business Consulting</p>					  
             </div>
           </div>
         </div>
         <div className="col-lg-3 col-md-4 col-sm-6 portfolio-item">
           <div className="card h-100">
-            <a className="hover-box" href="#">
+            <Link className="hover-box" to="/singleproject">
               <div className="dot-full">
                 <i className="fas fa-link" />
               </div>
-              <img className="card-img-top" src="images/portfolio-big-01.jpg" alt="" />
-            </a>
+              <img  className="card-img-top" src="images/portfolio-big-01.jpg" alt="" />
+            </Link>
             <div className="card-body">
-              <h4><a href="#">In viverra nisi vel facilisis dignissim.</a></h4>
+              <h4><Link to="/singleproject">In viverra nisi vel facilisis dignissim.</Link></h4>
               <p>Business Consulting</p>
             </div>
           </div>
         </div>
         <div className="col-lg-3 col-md-4 col-sm-6 portfolio-item">
           <div className="card h-100">
-            <a className="hover-box" href="#">
+            <Link className="hover-box" to="/singleproject">
               <div className="dot-full">
                 <i className="fas fa-link" />
               </div>
-              <img className="card-img-top" src="images/portfolio-big-02.jpg" alt="" />
-            </a>
+              <img  className="card-img-top" src="images/portfolio-big-02.jpg" alt="" />
+            </Link>
             <div className="card-body">
-              <h4><a href="#">In viverra nisi vel facilisis dignissim.</a></h4>
+              <h4><Link to="/singleproject">In viverra nisi vel facilisis dignissim.</Link></h4>
               <p>Business Consulting</p>					  
             </div>
           </div>
         </div>
         <div className="col-lg-3 col-md-4 col-sm-6 portfolio-item">
           <div className="card h-100">
-            <a className="hover-box" href="#">
+            <Link className="hover-box" to="/singleproject">
               <div className="dot-full">
                 <i className="fas fa-link" />
               </div>
-              <img className="card-img-top" src="images/portfolio-big-03.jpg" alt="" />
-            </a>
+              <img  className="card-img-top" src="images/portfolio-big-03.jpg" alt="" />
+            </Link>
             <div className="card-body">
-              <h4><a href="#">In viverra nisi vel facilisis dignissim.</a></h4>
+              <h4><Link to="/singleproject">In viverra nisi vel facilisis dignissim.</Link></h4>
               <p>Business Consulting</p>
             </div>
           </div>
@@ -138,31 +142,32 @@ class Projectshow4 extends Component {
         {/* Pagination */}
         <ul className="pagination justify-content-center">
           <li className="page-item">
-            <a className="page-link" href="#" aria-label="Previous">
+            <Link className="page-link" to="/singleproject" aria-label="Previous">
               <span aria-hidden="true">«</span>
               <span className="sr-only">Previous</span>
-            </a>
+            </Link>
           </li>
           <li className="page-item">
-            <a className="page-link" href="#">1</a>
+            <Link className="page-link" to="/singleproject">1</Link>
           </li>
           <li className="page-item">
-            <a className="page-link" href="#">2</a>
+            <Link className="page-link" to="/singleproject">2</Link>
           </li>
           <li className="page-item">
-            <a className="page-link" href="#">3</a>
+            <Link className="page-link" to="/singleproject">3</Link>
           </li>
           <li className="page-item">
-            <a className="page-link" href="#" aria-label="Next">
+            <Link className="page-link" to="/singleproject" aria-label="Next">
               <span aria-hidden="true">»</span>
               <span className="sr-only">Next</span>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
     </div>
     {/* /.container */}
   </div>
+  <Footer/>
 </div>
 
         );

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import {
   Link,
   NavLink
@@ -53,29 +54,14 @@ class Header extends Component {
           <li className="nav-item">
             <NavLink  className="nav-link" to="/services">Services</NavLink>
           </li>
-          <li className="nav-item dropdown">
-            <Link className="nav-link" to="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages <i className="fas fa-sort-down" /></Link>
-            <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <NavLink className="dropdown-item" to="/faq">FAQ</NavLink>
-              <NavLink className="dropdown-item" to="/404">404</NavLink>
-              <NavLink className="dropdown-item" to="/pricing">Pricing Table</NavLink>
-            </div>
+          <li className="nav-item">
+            <NavLink  className="nav-link" to="/portfolio4">Projects</NavLink>
           </li>
-          <li className="nav-item dropdown">
-            <Link className="nav-link" to="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio <i className="fas fa-sort-down" /></Link>
-            <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-              <NavLink className="dropdown-item" to="/portfolio3">3 Column Portfolio</NavLink>
-              <NavLink className="dropdown-item" to="/portfolio4">4 Column Portfolio</NavLink>
-              <NavLink className="dropdown-item" to="/portfoliosingle">Single Portfolio Item</NavLink>
-            </div>
+          <li className="nav-item">
+            <NavLink  className="nav-link" to="/faq">FAQ</NavLink>
           </li>
-          <li className="nav-item dropdown">
-            <Link className="nav-link" to="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i className="fas fa-sort-down" /></Link>
-            <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <NavLink className="dropdown-item" to="/blog">Blog</NavLink>
-              <NavLink className="dropdown-item" to="/blog-post">Blog Post</NavLink>
-            </div>
-          </li>
+         
+        
           <li className="nav-item">
             <NavLink className="nav-link" to="/contact">Contact</NavLink>
           </li>
