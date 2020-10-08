@@ -8,7 +8,7 @@ class Adminlogin extends Component {
             <div className="user_card">
               <div className="d-flex justify-content-center">
                 <div className="brand_logo_container">
-                  <img src="https://cdn.freebiesupply.com/logos/large/2x/pinterest-circle-logo-png-transparent.png" className="brand_logo" alt="Logo" />
+                  <img src="https://cdn.freebiesupply.com/logos/large/2x/pinterest-circle-logo-png-transparent.png" className="brand_logo" style={{"width": "100px"}}alt="Logo" />
                 </div>
               </div>
               <div className="d-flex justify-content-center form_container">
