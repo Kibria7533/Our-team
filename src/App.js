@@ -20,9 +20,18 @@ import Blogpost from './components/Blogpost';
 import Contact from './components/Contact';
 import Adminregister from './components/Adminregister';
 import Adminlogin from './components/Adminlogin';
-import Superadminlogin from './components/Superadminlogin';
 import Dashboard from './components/Dashboard';
 import Singleproject from './components/Singleproject';
+import Managehome from './components/Managehome';
+import Manageabout from './components/Manageabout';
+import Manageservices from './components/Manageservices';
+import Manageprojects from './components/Manageprojects';
+import Managecontact from './components/Managecontact';
+import Managefaq from './components/Managefaq';
+
+
+
+
 
 
 
@@ -46,9 +55,14 @@ function App() {
           <Route path="/blog-post"  exact component={Blogpost}/>
           <Route path="/contact"  exact component={Contact}/>
           <Route path="/adminregister"  exact component={Adminregister}/>
-          <Route path="/adminlogin"  exact component={Adminlogin}/>
-          <Route path="/superadminlogin"  exact component={Superadminlogin}/>
+          <Route path="/admin"  exact component={Adminlogin}/>
           <Route path="/dashboard"  exact component={Dashboard}/>
+          <Route path="/managehome"  exact component={Managehome}/>
+          <Route path="/manageabout" exact component={Manageabout}/>
+          <Route path="/manageservices" exact component={Manageservices}/>
+          <Route path="/manageprojects" exact component={Manageprojects}/>
+          <Route path="/managefaq" exact component={Managefaq}/>
+          <Route path="/managecontact" exact component={Managecontact}/>
           <Route   component={four}/>
           
         </Switch>
